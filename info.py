@@ -6,9 +6,9 @@ id_pattern = re.compile(r'^.\d+$')
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
 USER_SESSION = environ.get('USER_SESSION', 'User_Bot')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['22506926'])
+API_HASH = environ['34fe7b7d19572aae39c6db80e151d9f7']
+BOT_TOKEN = environ['7993719107:AAEr0zW27iq3aj0maD28cLjLM20EOQ_nYW8']
 USERBOT_STRING_SESSION = environ.get('USERBOT_STRING_SESSION')
 
 # Bot settings
@@ -24,8 +24,8 @@ auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel
 
 # MongoDB information
-DATABASE_URI = environ['DATABASE_URI']
-DATABASE_NAME = environ['DATABASE_NAME']
+DATABASE_URI = environ['mongodb+srv://sureshjaat2612:dilip261210@ssd.7oyrv.mongodb.net/?retryWrites=true&w=majority&appName=SSD']
+DATABASE_NAME = environ['ssdmovies']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
